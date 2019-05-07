@@ -1,0 +1,213 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 1% 15% 0;
+    background-color: #ff4c68;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Title section */
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 100px;
+}
+
+#title .container-fluid {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.description-container {
+    margin-bottom: 30px;
+}
+
+.download-btn {
+    margin: 10px 20px 10px 0;
+}
+
+.image-container {
+    height: 400px;
+}
+
+#tindog-screenshot {
+    transform: rotate(20deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+    max-width: 282px;
+}
+
+/* Features section */
+#features {
+    background-color: #ffffff;
+    position: relative;
+}
+
+#features .container-fluid {
+    padding: 10% 15%;
+}
+
+#features i {
+    color: #ef8172;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    margin: 20px auto;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+#testimonials-carousel {
+    padding: 7% 15% 0;
+}
+
+.testimonials-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press {
+    background-color: #ef8172;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 0;
+}
+
+/* Pricing section */
+#pricing h3 {
+    margin-bottom: 0;
+}
+
+.pricing-introduction h2 {
+    color: #ff4c68;
+}
+
+#pricing .pricing-introduction {
+    padding-bottom: 3%;
+}
+
+#pricing .card-header {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+/* Call-to-action section */
+#call-to-action {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+#call-to-action h2 {
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+#call-to-action a {
+    margin-bottom: 0;
+}
+
+/* Footer section */
+#footer {
+    background-color: #ffffff;
+}
+
+#footer i {
+    padding: 15px;
+    color: black;
+}
+
+#footer p {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .image-container {
+        height: auto;
+    }
+
+    #tindog-screenshot {
+        transform: rotate(0deg);
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer i {
+        padding: 20px;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #tindog-screenshot {
+        transform: rotate(0deg);
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+}
